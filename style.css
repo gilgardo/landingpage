@@ -61,5 +61,77 @@ button{
     background-color:#3882f6;
     font-size: 18px;
     color: #e5e7eb;
-    border-radius: 12px
+    border-radius: 12px;
+    border-color: #e5e7eb;
+}
+.middletit{
+    font-size: 48px;
+    font-weight: bolder;
+    margin:auto;
+    text-align: center;
+}
+dl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+dt>img{
+    width: 180px; /* Set a fixed width for all images */
+    height: 230px; /* Set a fixed height for all images */
+    object-fit: cover; /* This will make sure the images maintain their proportions */
+    margin: 5px;
+    border-radius: 12px;
+}
+dd{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: start;
+    margin: auto;
+}
+.places>dd{
+    text-align: center;
+}
+.quotesection{
+    background-color: #e5e7eb;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 20px;
+}
+.cit{
+    font-weight: bolder;
+    margin: auto;
+    text-align: end;
+}
+.call{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1000px;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3882f6;
+    overflow: hidden;
+    border-radius: 12px;
+    padding: 20px;
+    gap:30px;
+    color: #e5e7eb;
+    
+}
+.calltitle{
+    font-weight: bolder;
+    font-size: 28px;
+}
+.calltext{
+    font-size: 18px;
+}
+.call>button{
+    align-self: center;
 }
