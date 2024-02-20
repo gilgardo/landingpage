@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    height: 400px;
+    margin: 50px 200px 100px 200px;
+    justify-content: space-around;
+    gap: 70px;
+}
+#logo>img{
+    width: 100px; /* Set a fixed width for all images */
+    height: 100px; /* Set a fixed height for all images */
+    object-fit: cover; /* This will make sure the images maintain their proportions */
+    margin: 5px; /* This will add some spacing between the images */
+    border-radius: 50%;
+    align-self: start;
+  }
+#tit{
+    align-self: end;
+    margin: 0 auto;
+    font-size: 120px;
+    font-family: fantasy;
+}
+nav>ul{
+    width: 250px;
+    list-style-type: none;
+    border-color: purple;
+    display: flex;
+    justify-content: space-around;
+}
